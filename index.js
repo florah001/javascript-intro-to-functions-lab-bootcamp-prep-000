@@ -14,10 +14,11 @@ function logWhisper(string) {
     console.log("hello")
     return string.toLowerCase("i can\'t hear you")
 }
-if (sayHiToGrandma(string) == "hello") {
+if (sayHiToGrandma(string) === "hello") {
   console.log("i can\'t hear you") 
-} else console.log("YES INDEED")
-
+} else if (sayHiToGrandma(string) === "HELLO") {
+  console.log("YES INDEED")
+}
 
 
 
