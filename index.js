@@ -22,9 +22,6 @@ if (sayHiToGrandma(string) === "hello") {
 }
 
 
-
-
-
 /*
 if (sayHiToGrandma(string) === string.toLowerCase')
 return string.toLowerCase("i can\'t hear you")
